@@ -25,7 +25,7 @@ To use this repository as a template for your own application:
 7. Activate the virtual environment (alternatively, ensure any python-related command is preceded by `poetry run`):
 
    ```bash
-   poetry shell
+   poetry shell_2
    ```
 
 8. Install the git hooks:
