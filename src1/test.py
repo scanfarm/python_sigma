@@ -6,6 +6,7 @@ def get_user(username):
     # SECURITY ISSUE: SQL Injection — user input is concatenated directly into query
     query = "SELECT * FROM users WHERE username = '" + username + "'"
     cursor.execute(query)
+    print("HELLLOOOOOOOO")
     return cursor.fetchall()
 
 if __name__ == "__main__":
