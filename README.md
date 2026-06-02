@@ -19,7 +19,7 @@ To use this repository as a template for your own application:
 6. Set up the virtual environment:
 
    ```bash
-   poetry install
+   poetry install 
    ```
 
 7. Activate the virtual environment (alternatively, ensure any python-related command is preceded by `poetry run`):
