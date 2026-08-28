@@ -7,7 +7,6 @@ def get_user(username):
     query = "SELECT * FROM users WHERE username = '" + username + "'"
     cursor.execute(query)
     print("Executed query1234 jkjkj")  # Debugging statement to show the executed query
-    print("Executed query1234 devangana")
     return cursor.fetchall()
 
 if __name__ == "__main__":
